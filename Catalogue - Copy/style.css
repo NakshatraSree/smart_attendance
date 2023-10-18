@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.background
+{
+    background-color: black;
+    background-size: cover;
+    z-index: -10;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li 
+{
+    display: inline-block;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+a
+{
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+}
+.current
+{
+  background: rgba(93, 93, 93, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+}
+#hd
+{
+    font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    width: 100%;
+    margin-top: 5%;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.container h2
+{
+    
+    color: white;
+    font-size: 24px;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+}
+.row
+{
+    margin-top: 30px;
+}
+img
+{
+    width: 100%;
+}
+.product-bottom .fa
+{
+    font-size: 15px;
+    color: white;
+}
+.product-bottom h3
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.product-bottom h6
+{
+    font-size: 15px;
+    color: white;
+}
+.overlay
+{
+    opacity: 0;
+    display: block;
+    position: absolute;
+    width: 75px;
+    top: 10%;
+}
+.product-top:hover .overlay
+{
+    opacity: 0.7;
+    transition: 0.1s;
+    margin-left: 10px;
+}
+.overlay .fa
+{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    margin-bottom: 5%;
+}
+.overlay .btn-secondary
+{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+#clock {
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 80%;
+    color: white;
+  }
