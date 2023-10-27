@@ -18,7 +18,8 @@ const sessionStore = new MySQLStore({
   host: "localhost",
   user: "root",
   password: "",
-  database: "user_login"
+  database: "user_login",
+  port:3307,
 });
 
 const app = express();
@@ -50,7 +51,8 @@ const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "user_login"
+  database: "user_login",
+  port: 3307,
 });
 
 
@@ -498,4 +500,4 @@ app.post('/submit', (req, res) => {
     res.sendStatus(200);
   });
 });
-app.listen(52330);
+app.listen(3000);
